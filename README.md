@@ -7,6 +7,12 @@ Source: [http://mkusner.github.io/](http://mkusner.github.io/)
 
 Here is version 1.0 of Python and Matlab code for the Word Mover's Distance from the paper ["From Word Embeddings to Document Distances"](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)
 
+## GT Notes
+
+Running on my computer requires running in Python 2. Used [this method](https://docs.anaconda.com/anaconda/user-guide/tasks/switch-environment/) to run the old python version. 
+
+Some syntax edits and restructuring the string.translate() function *could* make it run in Python 3, but I have not tried. Does not seem necessary. Several edits to the Makefile file in python-emd-master were necessary, coppied them from the relevant git issue in the original repository.   
+
 ## Prerequisites
 
 - Python 2.7 
