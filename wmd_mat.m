@@ -2,8 +2,8 @@
 addpath('emd')
 
 
-load_file = 'twitter.mat';
-save_file = 'wmd_d_twitter.mat';
+load_file = 'twitter_vec.mat';
+save_file = 'wmd_d_twitter_test.mat';
 
 
 load(load_file)

@@ -55,3 +55,14 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+# output files
+*.mat
+*.pk
+
+# word2vec files
+GoogleNews-vectors-negative300.bin
+
+#something weird
+*.mexmaci64
